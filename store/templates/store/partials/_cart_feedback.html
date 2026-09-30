@@ -1,0 +1,1 @@
+{% if error %}<div class="inline-alert" role="alert">{{ error }}</div>{% else %}<div class="inline-success" role="status">✓ {{ product.name }} added · <a href="{% url 'cart' %}">View cart</a></div>{% endif %}<span id="cart-badge" hx-swap-oob="innerHTML">{{ cart_count }}</span>

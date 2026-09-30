@@ -1,0 +1,5 @@
+[
+  {"model":"store.category","pk":1,"fields":{"name":"Tech Essentials","slug":"tech-essentials"}},
+  {"model":"store.category","pk":2,"fields":{"name":"Workspace","slug":"workspace"}},
+  {"model":"store.category","pk":3,"fields":{"name":"Lifestyle","slug":"lifestyle"}}
+]
